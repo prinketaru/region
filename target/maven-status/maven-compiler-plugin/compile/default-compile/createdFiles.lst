@@ -1,0 +1,11 @@
+dev\prinke\region\listeners\RegionGuiListener.class
+dev\prinke\region\commands\subcommands\CreateCommand.class
+dev\prinke\region\commands\CommandManager.class
+dev\prinke\region\commands\subcommands\AddCommand.class
+dev\prinke\region\commands\subcommands\WhitelistCommand.class
+dev\prinke\region\commands\subcommands\WandCommand.class
+dev\prinke\region\listeners\RegionListener.class
+dev\prinke\region\commands\SubCommand.class
+dev\prinke\region\commands\subcommands\RemoveCommand.class
+dev\prinke\region\Region.class
+dev\prinke\region\listeners\WandListener.class

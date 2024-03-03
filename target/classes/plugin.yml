@@ -1,0 +1,31 @@
+name: Region
+version: '1.0'
+main: dev.prinke.region.Region
+api-version: '1.20'
+commands:
+  region:
+    description: Region command
+    usage: /<command> <subcommand> [args]
+    aliases: [regions, rg]
+    permission: region.command
+    permission-message: You don't have permission to use this command
+
+permissions:
+  region.menu:
+    description: Access to the region menu
+    default: true
+  region.add:
+    description: Add a region
+    default: true
+  region.remove:
+    description: Remove a region
+    default: true
+  region.whitelist:
+    description: Add a player to the region whitelist
+    default: true
+  region.create:
+    description: Create a region
+    default: true
+  region.bypass:
+    description: Bypass region protection
+    default: op
